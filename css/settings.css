@@ -1,0 +1,27 @@
+body
+{
+    width:100px;
+    height:90px;
+    margin:0px;
+}
+.titleHeader 
+{
+    font-size: 12px;
+    font-family: Segoe UI, Tahoma, sans-serif;
+}
+
+.settingName 
+{
+    font-size: 12px;
+}
+
+.normal 
+{
+    font-size: 12px;
+}
+
+.textBox
+{
+    font-size: 12px;
+    font-weight:normal;
+}

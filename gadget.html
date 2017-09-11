@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title>Kalendar</title>
+	<link href="css/gadget.css" rel="stylesheet" type="text/css" />
+	<script language="javascript" src="js/gadget.js" type="text/javascript"></script>
+</head>
+<body onload="loadmain();">
+	<div>
+		<g:background id="background" style="position:absolute; z-index:-999;" />
+	</div>
+</body>
+<script type="text/javascript" language="javascript">
+    function SettingsClosed(event)
+    {
+        if (event.closeAction == event.Action.commit)
+        {
+            loadMain();
+        }    
+    }
+</script>
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gadget>
+  <name>Календарь TES</name>
+  <namespace>Calendar</namespace>
+  <version>1.1</version>
+  <author name="Durkgame">
+    <logo src="logo.png"/>
+    <info url="https://github.com/Durkgame" />
+  </author>
+  <copyright>© 2017</copyright>
+  <description>Календарь по вселенной The Elder Scrolls.</description>
+  <icons>
+    <icon height="48" width="48" src="icon.png" />
+  </icons>
+  <hosts>
+    <host name="sidebar">
+      <base type="HTML" apiVersion="1.0.0" src="gadget.html" />
+      <permissions>full</permissions>
+      <platform minPlatformVersion="1.0" />
+      <defaultImage src="drag.png" />
+    </host>
+  </hosts>
+</gadget>
