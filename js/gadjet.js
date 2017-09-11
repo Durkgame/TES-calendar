@@ -144,14 +144,17 @@ function dockedState() {
 }
 
 function setDate() {
+    var dayD = 15;
+    var mjD = 16;
     function custom(arg) {
-        // 1 - output of day; 
-        // 2 - output of month; 
+        // 1 - output of day(+options); 
+        // 2 - output of month(+options); 
         // 3 - color;
         var output;
         switch(arg){
             case 1:
             if (System.Gadget.Settings.read("tamriel's Days") == 'checked') {
+                dayD = 16;
                 if (System.Gadget.Settings.read("eng") == 'checked') {
                     output = dayTmrlEn;
                 } else {
@@ -160,6 +163,7 @@ function setDate() {
             } else {
                 if (System.Gadget.Settings.read("eng") == 'checked') {
                     output = dayGregEn;
+                    dayD = 16;
                 } else {
                     output = dayGregRu;
                 }
@@ -169,6 +173,7 @@ function setDate() {
             output = monthRu;
             if (System.Gadget.Settings.read("eng") == 'checked') {
                 output = monthEn;
+                mjD = 17;
             }
             break;
             case 3:
@@ -215,11 +220,11 @@ function setDate() {
         maandjaarDisplay.align = 2;
         t = setTimeout(setDate, 3000);
     } else {
-        var dayDisplay = background.addTextObject(daytxt, "Segoe UI", 15, color, 100, -3);
+        var dayDisplay = background.addTextObject(daytxt, "Segoe UI", dayD, color, 100, -3);
         dayDisplay.align = 1;
         var datumDisplay = background.addTextObject(datumtxt, "Segoe UI", 80, color, 100, -1);
         datumDisplay.align = 1;
-        var maandjaarDisplay = background.addTextObject(maandtxt + ", " + jaartxt, "Segoe UI", 16, color, 100, 95);
+        var maandjaarDisplay = background.addTextObject(maandtxt + ", " + jaartxt, "Segoe UI", mjD, color, 100, 95);
         maandjaarDisplay.align = 1;
         t = setTimeout(setDate, 3000);
     }
