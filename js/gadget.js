@@ -1,4 +1,4 @@
-var t;
+﻿var t;
 var isDocked;
 var mainSettings;
 
