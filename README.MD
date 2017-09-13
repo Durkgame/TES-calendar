@@ -18,7 +18,7 @@ Tes-calendar - это гаджет-календарь для Windows 7 (нужн
 * Автообновление при выходе из настроек;
 * Адаптация под 8/10(буду признателен за обратную связь);
 
-### [Screenshots](https://github.com/Durkgame/TES-calendar#screenshots)
+### [Screenshots](https://github.com/Durkgame/TES-calendar#screenshots-1)
 ---
 # EN-descr
 ---
