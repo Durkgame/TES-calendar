@@ -15,14 +15,13 @@ Tes-calendar - это гаджет-календарь для Windows 7 (нужн
 2. Извлечь папку из архива в `"%USERPROFILE%\AppData\Local\Microsoft\Windows Sidebar\Gadgets\"` и добавить окончание .gadget (пример: TES-calendar.gadget).
 
 ## TODOS
-* Автообновление при выходе из настроек;
 * Адаптация под 8/10(буду признателен за обратную связь);
 
 ### [Screenshots](https://github.com/Durkgame/TES-calendar#screenshots-1)
 ---
 # EN-descr
 ---
-#TES-calendar - this is a gadget-calendar for Windows 7 (need tests for 8 and 10).
+TES-calendar - this is a gadget-calendar for Windows 7 (need tests for 8 and 10).
 
 ## What can it do?
 * Display of the date, day of the week, month (according to the Tamriel calendar), year (and time in the extended mode).
@@ -38,7 +37,6 @@ Tes-calendar - это гаджет-календарь для Windows 7 (нужн
 2. Extract a folder from the archive into `"%USERPROFILE%\AppData\Local\Microsoft\Windows Sidebar\Gadgets\"` and add a suffix .gadget (e.g. TES-calendar.gadget).
 
 ## TODOS
-* Auto-update when exiting settings;
 * Adaptation for 8/10(need more feedback);
 
 ## Screenshots
