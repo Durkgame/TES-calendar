@@ -17,6 +17,11 @@ Tes-calendar - это гаджет-календарь для Windows 7 (нужн
 ## TODOS
 * Адаптация под 8/10(буду признателен за обратную связь);
 
+## Обратная связь
+* [git-issues](https://github.com/Durkgame/TES-calendar/issues)
+* medrenguard@gmail.com
+* [vk](https://vk.com/gute_nacht)
+
 ### [Screenshots](https://github.com/Durkgame/TES-calendar#screenshots-1)
 ---
 # EN-descr
@@ -38,6 +43,10 @@ TES-calendar - this is a gadget-calendar for Windows 7 (need tests for 8 and 10)
 
 ## TODOS
 * Adaptation for 8/10(need more feedback);
+
+## Feedback
+* [git-issues](https://github.com/Durkgame/TES-calendar/issues)
+* medrenguard@gmail.com
 
 ## Screenshots
 ![](https://raw.githubusercontent.com/Durkgame/TES-calendar/master/images/example/example3.jpg) 
