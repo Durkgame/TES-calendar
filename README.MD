@@ -1,5 +1,5 @@
 # TES-calendar
-Tes-calendar - это гаджет-календарь для Windows 7 (нужны тесты для 8 и 10).
+Tes-calendar - это гаджет-календарь для Windows 7/10 (нужны тесты для 8).
 
 ## Возможности
 * отображение числа, дня недели, месяца(согласно Тамриэльскому календарю), года (и времени в расширенном режиме).
@@ -11,11 +11,12 @@ Tes-calendar - это гаджет-календарь для Windows 7 (нужн
 * **Для фанатов**: дни недели тоже на Тамриельском.
 
 ## Установка
+0. Если у вас Win10 - установить [8GadgetPack.](http://8gadgetpack.net/)
 1. [Download it!](https://github.com/Durkgame/TES-calendar/archive/master.zip)
 2. Извлечь папку из архива в `"%USERPROFILE%\AppData\Local\Microsoft\Windows Sidebar\Gadgets\"` и добавить окончание .gadget (пример: TES-calendar.gadget).
 
 ## TODOS
-* Адаптация под 8/10(буду признателен за обратную связь);
+* Адаптация под 8 (буду признателен за обратную связь);
 
 ## Обратная связь
 * [git-issues](https://github.com/Durkgame/TES-calendar/issues)
@@ -26,7 +27,7 @@ Tes-calendar - это гаджет-календарь для Windows 7 (нужн
 ---
 # EN-descr
 ---
-TES-calendar - this is a gadget-calendar for Windows 7 (need tests for 8 and 10).
+TES-calendar - this is a gadget-calendar for Windows 7/10 (need tests for 8).
 
 ## What can it do?
 * Display of the date, day of the week, month (according to the Tamriel calendar), year (and time in the extended mode).
@@ -38,11 +39,12 @@ TES-calendar - this is a gadget-calendar for Windows 7 (need tests for 8 and 10)
 * **For fans**: **on/off** days of the week according to the Tamriel calendar.
 
 ## Install
+0. If you have Win10 - setup [8GadgetPack.](http://8gadgetpack.net/)
 1. [Download it!](https://github.com/Durkgame/TES-calendar/archive/master.zip)
 2. Extract a folder from the archive into `"%USERPROFILE%\AppData\Local\Microsoft\Windows Sidebar\Gadgets\"` and add a suffix .gadget (e.g. TES-calendar.gadget).
 
 ## TODOS
-* Adaptation for 8/10(need more feedback);
+* Adaptation for Win8 (need more feedback);
 
 ## Feedback
 * [git-issues](https://github.com/Durkgame/TES-calendar/issues)
