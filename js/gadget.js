@@ -210,13 +210,13 @@ function setDate() {
     var jaartxt = (nd.getYear());
     var color = custom(3);
     if (!isDocked) {
-        var timeDisplay = background.addTextObject(timetxt, "Segoe UI", 110, color, 300, -40);
+        var timeDisplay = background.addTextObject(timetxt, "Segoe UI", 110, color, 500, -40);
         timeDisplay.align = 2;
-        var datumDisplay = background.addTextObject(datumtxt, "Segoe UI", 80, color, 365, -29);
+        var datumDisplay = background.addTextObject(datumtxt, "Segoe UI", 80, color, 565, -29);
         datumDisplay.align = 1;
-        var dayDisplay = background.addTextObject(daytxt, "Segoe UI", 17, color, 365, 64);
+        var dayDisplay = background.addTextObject(daytxt, "Segoe UI", 17, color, 565, 64);
         dayDisplay.align = 1;
-        var maandjaarDisplay = background.addTextObject(maandtxt + ", " + jaartxt, "Segoe UI", 17, color, 411, 92);
+        var maandjaarDisplay = background.addTextObject(maandtxt + ", " + jaartxt, "Segoe UI", 17, color, 611, 92);
         maandjaarDisplay.align = 2;
         t = setTimeout(setDate, 3000);
     } else {
